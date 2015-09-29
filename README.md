@@ -5,7 +5,7 @@ Adds ES7 decorator support and a few other missing bits to the existing Meteor 1
 ## Install
 
 ```shell
-   meteor add pbastowski:ecmascript-extras
+meteor add pbastowski:ecmascript-extras
 ```
 
 ## Babel transformers added by this package
@@ -13,13 +13,11 @@ Adds ES7 decorator support and a few other missing bits to the existing Meteor 1
 Here is the list of extra transformers added by this package:
 
 - es5.properties.mutators 
-
 - es6.modules 
-- es6.regex.sticky 
+- es6.regex.sticky
 - es6.regex.unicode 
-- es6.tailCall 
+- es6.tailCall
 - es6.templateLiterals 
-
 - es7.decorators (stage 1)
 - es7.classProperties (stage 0)
 - es7.exportExtensions (stage 1)
