@@ -1,8 +1,8 @@
 Package.describe({
   name: 'pbastowski:ecmascript-extras',
   version: '0.0.1',
-  summary: 'Extends ecmascript with babel helpers needed for angular2-now',
-  git: '',
+  summary: 'Extends the basic ecmascript package with extra Babel transformers',
+  git: 'https://github.com/pbastowski/ecmascript-extras/blob/master/ecmascript-extras.js',
   documentation: 'README.md'
 });
 
