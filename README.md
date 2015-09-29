@@ -33,3 +33,26 @@ To support the decorators and modules transformers, the following functions are 
 - defineDecoratedPropertyDescriptor
 - createDecoratedClass
 - interopRequireDefault
+
+## `import ... from` and `require`
+
+Babel does not include a `require` loader, it just compiles statements like below
+
+```javascript
+import {x, y, z} from "modulename";
+```
+
+into something like this 
+
+```javascript
+var x = require('modulename')['x'];
+var y = require('modulename')['y'];
+var z = require('modulename')['z'];
+```
+
+So, if you actually use the `import ... from` syntax in your code then you may see errors in your dev console. To get around that, I have created a simple `require` package, which implements just enough of `require` and `module.exports` to enable you to export and import in Meteor apps. 
+ 
+Try it and see if it works for you:
+ 
+    meteor add pbastowski:require
+     
