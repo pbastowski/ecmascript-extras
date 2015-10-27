@@ -1,6 +1,6 @@
 Package.describe({
   name: 'pbastowski:ecmascript-extras',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Extends the basic ecmascript package with extra Babel transformers',
   git: 'https://github.com/pbastowski/ecmascript-extras/blob/master/ecmascript-extras.js',
   documentation: 'README.md'
