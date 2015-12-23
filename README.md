@@ -1,3 +1,7 @@
+# Do NOT use this package. It is out of date and has various issues that will not be fixed.
+
+# Use pbastowski:angular-babel instead. It works even in non-angular situations.
+
 > This is an experimental release and may contain ugly bugs
 
 # ecmascript-extras
